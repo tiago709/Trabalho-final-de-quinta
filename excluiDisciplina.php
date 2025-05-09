@@ -6,8 +6,8 @@ if (!isset($_GET['id'])) {
 }
 
 $id = $_GET['id'];
-$controlaDisciplin = new ControlaDisciplin();
-$controlaDisciplin->excluir($id);
+$controlaDisciplina = new ControlaDisciplina();
+$controlaDisciplina->excluir($id);
 
-header("Location: index.php");
+header("Location: indexDisciplina.php");
 exit;
