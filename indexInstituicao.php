@@ -10,6 +10,7 @@ $instituicao = $controlaInstituicao->listar();
 <head>
     <meta charset="UTF-8">
     <title>Lista de Instituicao</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
   
 <body>
