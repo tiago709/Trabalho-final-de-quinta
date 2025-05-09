@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Instituicao</title>
+</head>
+<body>
+    <h2>Cadastro de Instituicao</h2>
+    <form id="cadastroForm" action="processaCadastroInstituicao.php" method="post">
+        <label>CNPJ</label>
+        <input type="text" name="cnpj" required>
+        <label>Nome da Instituição</label>
+        <input type="text" name="nomeInstituicao" required>
+        <label>Endereço</label>
+        <input type="text" name="endereco" required>
+        <label>Email</label>
+        <input type="email" name="email" required>
+        <label>Telefone</label>
+        <input type="text" name="telefone" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
